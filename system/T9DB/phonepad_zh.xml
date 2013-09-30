@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Template for OEM use -->
+
+<keyboard
+  primaryId="0xE1"
+  secondaryId="0x0A"
+  keyWidth="28.66%"
+  keyHeight="20.25%"
+  borderGap="2dp"
+  verticalGap="5%"
+  horizontalGap="5%"
+  defaultLayoutWidth="320"
+  defaultLayoutHeight="216"
+  addAltChars="false"
+  >
+	
+  <row>
+
+    <key
+      keyLabel=".,?"
+      keyType="smartPunct"
+      keyCodes="0x002C,0x3002,0x0021,0x003F"
+      keyMultitapCodes="0x002C,0x3002,0x0021,0x003F"
+    />
+
+    <key
+      keyLabel="abc"
+      keyType="nonRegional"
+      keyCodes="0x0061,0x0062,0x0063,0x0032"
+      keyMultitapCodes="0x0061,0x0062,0x0063,0x0032"
+    />
+
+    <key
+      keyLabel="def"
+      keyType="nonRegional"
+      keyCodes="0x0064,0x0065,0x0066,0x0033"
+      keyMultitapCodes="0x0064,0x0065,0x0066,0x0033"
+    />
+
+  </row>
+
+  <row>
+
+    <key
+      keyLabel="ghi"
+      keyType="nonRegional"
+      keyCodes="0x0067,0x0068,0x0069,0x0034"
+      keyMultitapCodes="0x0067,0x0068,0x0069,0x0034"
+    />
+
+    <key
+      keyLabel="jkl"
+      keyType="nonRegional"
+      keyCodes="0x006A,0x006B,0x006C,0x0035"
+      keyMultitapCodes="0x006A,0x006B,0x006C,0x0035"
+    />
+
+    <key
+      keyLabel="mno"
+      keyType="nonRegional"
+      keyCodes="0x006D,0x006E,0x006F,0x0036"
+      keyMultitapCodes="0x006D,0x006E,0x006F,0x0036"
+    />
+
+  </row>
+
+  <row>
+
+    <key
+      keyLabel="pqrs"
+      keyType="nonRegional"
+      keyCodes="0x0070,0x0071,0x0072,0x0073,0x0037"
+      keyMultitapCodes="0x0070,0x0071,0x0072,0x0073,0x0037"
+    />
+
+    <key
+      keyLabel="tuv"
+      keyType="nonRegional"
+      keyCodes="0x0074,0x0075,0x0076,0x0038"
+      keyMultitapCodes="0x0074,0x0075,0x0076,0x0038"
+    />
+
+    <key
+      keyLabel="wxyz"
+      keyType="nonRegional"
+      keyCodes="0x0077,0x0078,0x0079,0x007A,0x0039"
+      keyMultitapCodes="0x0077,0x0078,0x0079,0x007A,0x0039"
+    />
+
+  </row>
+
+  <row>
+
+    <key
+      keyType="function"
+      keyLabel="*"
+      keyName="ET9KEY_SHIFT"
+    />
+
+    <key
+      keyLabel="0"
+      keyType="nonRegional"
+      keyCodes="0x30"
+      keyMultitapCodes="0x0030"
+    />
+
+    <key
+      keyType="function"
+      keyLabel="#"
+      keyName="ET9KEY_SPACE"
+    />
+
+  </row>
+</keyboard>

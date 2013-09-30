@@ -1,0 +1,65 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED001</CSCEdition>
+    <Country>USA</Country>
+    <SalesCode>SPR</SalesCode>
+	<CountryISO>US</CountryISO>
+	<Region>NA</Region>
+    <NbNetworkInfo>1</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>31000</MCCMNC>
+      <NetworkName>SPR</NetworkName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+
+    <Messages>
+        <SMS>
+            <CharSupport>automatic</CharSupport>
+            <EmailGateway>6245</EmailGateway>
+			<MaxRecipient>40</MaxRecipient>
+            <MsgTypeThreshold>
+	            <ThresholdValue>6</ThresholdValue>
+	            <ThresholdType>pagecount</ThresholdType>
+	          </MsgTypeThreshold>
+        </SMS>
+
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>1m</MessageSize>
+          <ImageResizeResolution>uxga</ImageResizeResolution>
+		  <MaxRecipientMMS>40</MaxRecipientMMS>
+          <CreationMode>free</CreationMode>
+        </MmsSending>
+      </MMS>
+      <Email>
+      	   <EmailReceiving>
+      	       <PollTime>30M</PollTime>
+      	   </EmailReceiving>
+      </Email>      
+    </Messages>
+    <ActiveSync>
+        <SyncSchedule>
+            <OffPeakDuration>1H</OffPeakDuration>
+        </SyncSchedule>
+        <EasEmail>
+            <SizeEmail>20K</SizeEmail>
+        </EasEmail>
+    </ActiveSync>     
+  </Settings>
+</CustomerData>
